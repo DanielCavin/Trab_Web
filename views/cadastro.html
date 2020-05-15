@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" type="image/x-icon" href="../img/favicon.ico">
+  <link rel="stylesheet" href="../css/vendor/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <title>Criar conta - Zee Beer</title>
+</head>
+
+<body>
+  <main id="signup-page">
+    <form method="POST" action="../index.html" class="container my-5">
+      <div class="row">
+        <div class="col-12 col-lg-6 mx-auto">
+          <img src="../img/zeebeer-preta.png" class="logo d-block img-fluid mb-5 mx-auto" alt="Zee Beer Logo">
+
+          <div class="card">
+            <div class="card-header d-flex">
+              <span>
+                Criar nova conta
+              </span>
+              <a href="../index.html" class="ml-auto">
+                Voltar
+              </a>
+            </div>
+            <div class="card-body">
+              <div class="col-10 mx-auto">
+                <div class="form-group">
+                  <label for="nome">Nome</label>
+                  <input type="text" class="form-control" id="nome">
+                </div>
+                <div class="form-group">
+                  <label for="sobrenome">Sobrenome</label>
+                  <input type="text" class="form-control" id="sobrenome">
+                </div>
+                <div class="form-group">
+                  <label for="password">senha</label>
+                  <input type="text" class="form-control" id="senha">
+                </div>
+                <div class="form-group">
+                  <label for="nascimento">Nascimento</label>
+                  <input type="date" class="form-control" id="nascimento">
+                </div>
+                <div class="mb-3">
+                  <label class="d-block">Sexo</label>
+                  <div class="form-check form-check-inline">
+                    <input type="radio" class="form-check-input" id="sexo_m">
+                    <label for="sexo_m" class="form-check-label">Masculino</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input type="radio" class="form-check-input" id="sexo_f">
+                    <label for="sexo_f" class="form-check-label">Feminino</label>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="text" class="form-control" id="email">
+                </div>
+                <div class="form-group">
+                  <label for="telefone">Telefone</label>
+                  <input type="text" class="form-control" id="telefone">
+                </div>
+
+                <hr>
+                <button type="submit" class="btn btn-primary">Salvar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+  </main>
+
+  <script src="../js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+/* primeira formatacao abaixo */
+
+.logo-small {
+  max-width: 90px;
+}
+
+/* segunda formatacao abaixo */
+
+.logo {
+  max-width: 240px;
+}
+
+.zeebeerP {
+  max-width: 220px;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: #413f3f;
+}
+
+a:hover {
+  color: #918d8d;
+}

@@ -1,0 +1,10 @@
+2018201046 - Rodrigo Rios Mesquita
+2018201575 - Gabriel Soares Salvador
+? - Diogo Raphael
+2018202066 - Daniel Cavin
+? - Daniel Oliveira
+
+Páginas com validação javascript:
+-> index.html
+-> views/recuperacao.html
+-> views/cadastro.html
